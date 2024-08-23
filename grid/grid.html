@@ -8,14 +8,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bootstrap 5 - GRID</title>
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="./styles.css">
 
     </head>
 
     <body>
 
-        <h1>Hola mundo</h1>
-        <button class="btn btn-primary">Empezar</button>
+        <!-- CONTENEDOR PRINCIPAL (En el van las filas y las columnas)-->
+        <!-- Con el container se puede centrar la pagina -->
+        <div class="container">
+
+            <!--	
+            Container max-width	None (auto)	540px	720px	960px	1140px	1320px
+            Class prefix .col-	.col-sm-	.col-md-	.col-lg-	.col-xl-	.col-xxl
+            --->
+            <!-- Las filas son grupos horizontales de columnas -->
+            <!-- HEADER -->
+            <header class="row container__header">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-12">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elitmi consequuntur natus, eloremque quis maiores tate autem atque.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-12">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elitmi consequuntur natus, eloremque quis maiores tate autem atque.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-12">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elitmi consequuntur natus, eloremque quis maiores tate autem atque.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+                
+            </header>
+
+        </div>
 
         <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
